@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-color:papayawhip
+}
+a{
+    text-decoration: none;
+}
+
+header {
+    background-color: darkslategray;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    margin: 0;
+    width: 80%;
+}
+header a{
+    color: cornflowerblue;
+
+}
+
+header li{
+    align-content: center;
+}
+
+header img{
+    width: 45px;
+}
+
+form{
+    display: grid;
+    width: 70%;
+    margin: auto;
+}
+
+form label{
+font-weight: bold;
+}
+
+input{
+        height: 35px;
+        margin-bottom: 14px;
+        padding: 0 15px;
+}
+
+input[type ="submit"]{
+    width: 20%;
+    margin-left: auto;
+    margin-top: 5px;
+
+}
+
+section#form {
+    background-color: cornflowerblue;
+    width: 70%;
+    margin: auto;
+    border-radius: 31px;
+    padding: 25px 0;
+    margin-top: 60px;
+    align-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+main section{
+    flex-basis: 80%;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+aside{
+    flex-basis: 20%;
+    background-color: darkslategray;
+    text-align: center;
+}
+
+table{
+    border: 2px solid black;
+    width: 55%;
+    text-align: center;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+}
